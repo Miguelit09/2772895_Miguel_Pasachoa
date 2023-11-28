@@ -1,5 +1,6 @@
 from cuadrado import Cuadrado
 from rectangulo import Rectangulo
+from circulo import Circulo
 
 print("CUADRADOS")
 
@@ -48,5 +49,11 @@ print("RECTANGULOS")
 print("Primer rectangulo: ")
 figura5 = Rectangulo(2,4)
 print(f"El perimetro del rectangulo 1 es de {figura5.perimetro()} m")
-print(f"El area del rectangulo 1 es de {figura5.area()} m2")
+print(f"El area del rectangulo 1 es de {figura5.area()} m2\n")
 
+print("CIRCULOS")
+
+print("Primer circulo: ")
+figura6 = Circulo(4)
+print(f"El perimetro del circulo 1 es de {figura6.perimetro()} m")
+print(f"El area del circulo 1 es de {figura6.area()} m2\n")
