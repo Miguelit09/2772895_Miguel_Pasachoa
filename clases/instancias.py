@@ -1,7 +1,9 @@
 from cuadrado import Cuadrado
 from rectangulo import Rectangulo
 from circulo import Circulo
+from triangulo import Triangulo
 
+# Cuadrados
 print("CUADRADOS")
 
 print("Primer cuadrado: ")
@@ -44,6 +46,8 @@ print(f"Lado actual: {figura4.lado}")
 figura4.lado = 16
 print(f"Nuevo lado: {figura4.lado}\n")
 
+# Rectangulos
+
 print("RECTANGULOS")
 
 print("Primer rectangulo: ")
@@ -51,9 +55,20 @@ figura5 = Rectangulo(2,4)
 print(f"El perimetro del rectangulo 1 es de {figura5.perimetro()} m")
 print(f"El area del rectangulo 1 es de {figura5.area()} m2\n")
 
+# Circulos
+
 print("CIRCULOS")
 
 print("Primer circulo: ")
 figura6 = Circulo(4)
 print(f"El perimetro del circulo 1 es de {figura6.perimetro()} m")
 print(f"El area del circulo 1 es de {figura6.area()} m2\n")
+
+# Triangulos
+
+print("TRIANGULOS")
+
+print("Primer triangulo: ")
+figura7 = Triangulo(2,3,4,4)
+print(f"El perimetro del triangulo 1 es de {figura7.perimetro()} m")
+print(f"El area del triangulo 1 es de {figura7.area()} m2")
