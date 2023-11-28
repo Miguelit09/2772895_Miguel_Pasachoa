@@ -1,4 +1,6 @@
-class Circulo:
+from abstracta import Abstracta
+
+class Circulo(Abstracta):
 	PI = 3.1416
 	def __init__(self,radio):
 		self.radio = radio

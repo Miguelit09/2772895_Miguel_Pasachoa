@@ -1,4 +1,6 @@
-class Hexagono:
+from abstracta import Abstracta
+
+class Hexagono(Abstracta):
 	# Lados es una lista con los 6 lados de la figura
 	def __init__(self,lados,apotema):
 		self.lados = lados

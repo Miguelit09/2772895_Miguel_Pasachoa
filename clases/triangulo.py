@@ -1,4 +1,6 @@
-class Triangulo:
+from abstracta import Abstracta
+
+class Triangulo(Abstracta):
 	def __init__(self,lado1,lado2,lado3,altura):
 		self.lado1  = lado1
 		self.lado2  = lado2

@@ -1,4 +1,5 @@
-class Rectangulo:
+from abstracta import Abstracta
+class Rectangulo(Abstracta):
 	def __init__(self, base, altura):
 		self.base = base
 		self.altura = altura

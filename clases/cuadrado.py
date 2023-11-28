@@ -1,4 +1,6 @@
-class Cuadrado:
+from abstracta import Abstracta
+
+class Cuadrado(Abstracta):
 	def __init__(self,lado):
 		self.__lado = lado
 
