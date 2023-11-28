@@ -1,4 +1,7 @@
 from cuadrado import Cuadrado
+from rectangulo import Rectangulo
+
+print("CUADRADOS")
 
 print("Primer cuadrado: ")
 figura1 = Cuadrado(2)
@@ -38,4 +41,12 @@ print(f"Nuevo lado: {figura3.lado}\n")
 print("Cuadrado 4:")
 print(f"Lado actual: {figura4.lado}")
 figura4.lado = 16
-print(f"Nuevo lado: {figura4.lado}")
+print(f"Nuevo lado: {figura4.lado}\n")
+
+print("RECTANGULOS")
+
+print("Primer rectangulo: ")
+figura5 = Rectangulo(2,4)
+print(f"El perimetro del rectangulo 1 es de {figura5.perimetro()} m")
+print(f"El area del rectangulo 1 es de {figura5.area()} m2")
+
