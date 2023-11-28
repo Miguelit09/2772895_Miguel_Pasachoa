@@ -2,6 +2,7 @@ from cuadrado import Cuadrado
 from rectangulo import Rectangulo
 from circulo import Circulo
 from triangulo import Triangulo
+from hexagono import Hexagono
 
 # Cuadrados
 print("CUADRADOS")
@@ -72,3 +73,12 @@ print("Primer triangulo: ")
 figura7 = Triangulo(2,3,4,4)
 print(f"El perimetro del triangulo 1 es de {figura7.perimetro()} m")
 print(f"El area del triangulo 1 es de {figura7.area()} m2")
+
+# Hexagonos
+
+print("HEXAGONOS")
+
+print("Primer hexagono: ")
+figura8 = Hexagono([2,2,3,3,4,4],5)
+print(f"El perimetro del hexagono 1 es de {figura8.perimetro()} m")
+print(f"El area del hexagono 1 es de {figura8.area()} m2")
