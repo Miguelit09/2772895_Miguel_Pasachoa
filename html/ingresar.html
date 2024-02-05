@@ -24,29 +24,35 @@
         <li>
           <a href="registrar.html">Registro</a>
         </li>
+        <li>
+          <a href="nosotros.html">Acerca de</a>
+        </li>
       </ul>
-      <form action="./ingresar/ingresado.html" method="get">
-        <div>
-          <label for="usuario">Usuario: </label>
-          <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" required minlength="8">
-        </div>
-        <br>
-        <div>
-          <label for="contraseña">Contraseña: </label>
-          <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required
-            minlength="8">
-        </div>
-        <br>
-        <div>
-          <input type="checkbox" name="recordar" id="recordar">
-          <label for="recordar">Recordar datos de registro</label>
-        </div>
-        <br>
-        <button type="submit">Ingresar</button>
-      </form>
     </nav>
   </header>
-
+  <form action="./ingresar/ingresado.html" method="get">
+    <div>
+      <label for="usuario">Usuario: </label>
+      <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" required minlength="8">
+    </div>
+    <br>
+    <div>
+      <label for="contraseña">Contraseña: </label>
+      <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required
+        minlength="8">
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="recordar" id="recordar">
+      <label for="recordar">Recordar datos de registro</label>
+    </div>
+    <br>
+    <div>
+      <p><a href="./recuperar_contraseña.html">Olvidé mi contraseña</a></p>
+    </div>
+    <br> 
+    <button type="submit">Ingresar</button>
+  </form>
 </body>
 
 </html>
