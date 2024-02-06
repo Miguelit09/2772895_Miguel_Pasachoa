@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.header {
+  background-color: aliceblue;
+  color: black;
+}
+
+#logo {
+  padding-left: 10%;
+  width: 500px;
+}
+
+nav nav ul li a {
+  color: red;
+}
+nav ul li a:hover {
+  color: blue;
+  background-color: beige;
+  display: block;
+  width: 200px;
+}
