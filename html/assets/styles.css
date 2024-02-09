@@ -4,57 +4,35 @@ body {
   font-size: 14px;
 }
 
-nav {
-  margin-top: -75px;
-}
-.unificar {
-  margin-top: -16px;
-}
 .header {
+  display: flex;
   background-color: aliceblue;
-  height: 100px;
   color: black;
-  display: block;
-  margin-bottom: 120px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu {
-  display: inline;
-  margin-top: -40px;
+  list-style: none;
+  display: flex;
+  gap: 72px;
+  margin-right: 50px;
 }
-
 #logo {
-  padding-left: 10%;
-  width: 100px;
+  margin-left: 50px;
+  width: 80px;
 }
 
-nav nav ul li a {
-  color: red;
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  padding: 3px;
 }
 nav ul li a:hover {
-  color: blue;
-  background-color: beige;
+  color: red;
+  background-color: rgb(99, 235, 121);
   display: block;
-  width: 200px;
 }
 
-#o_uno {
-  margin-left: 25%;
-}
-
-#o_dos {
-  margin-left: 35%;
-}
-#o_tres {
-  margin-left: 45%;
-}
-#o_cuatro {
-  margin-left: 55%;
-}
-#o_cinco {
-  margin-left: 65%;
-}
-
-#buscar {
-  margin-left: 75%;
-}
